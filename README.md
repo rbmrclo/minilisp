@@ -21,7 +21,7 @@ Or install it yourself as:
 
 The LISP interpreter is just a Ruby class that evals expressions in Ruby data structures, like so:
 
-    l = Minilisp.new
+    l = Minilisp::Interpreter.new
     
     l.eval [:label, :a, 42]
 

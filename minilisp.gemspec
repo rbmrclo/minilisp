@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["rbmrclo@hotmail.com"]
   spec.description   = %q{Lisp in 32 lines of Ruby}
   spec.summary       = %q{A micro LISP implementation in 32 lines of Ruby}
-  spec.homepage      = "http://github.com/rbmrclo/Minilisp"
+  spec.homepage      = "http://github.com/rbmrclo/minilisp"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
